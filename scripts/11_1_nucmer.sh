@@ -10,6 +10,8 @@
 #SBATCH --error=/data/users/awidjaja/assembly_course/error_nucmer_%j.e
 #SBATCH --partition=pibu_el8
 
+mkdir /data/users/awidjaja/assembly_course/nucmer_res
+
 in_dir="/data/users/awidjaja/assembly_course"
 out_dir="/data/users/awidjaja/assembly_course/nucmer_res"
 
