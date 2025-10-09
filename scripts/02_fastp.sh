@@ -10,6 +10,8 @@
 #SBATCH --error=/data/users/awidjaja/assembly_course/error_fastp_%j.e
 #SBATCH --partition=pibu_el8
 
+mkdir /data/users/awidjaja/assembly_course/fastp_res
+
 in_dir="/data/users/awidjaja/assembly_course"
 out_dir="/data/users/awidjaja/assembly_course/fastp_res"
 
