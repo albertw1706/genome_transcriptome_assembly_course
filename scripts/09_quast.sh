@@ -10,6 +10,9 @@
 #SBATCH --error=/data/users/awidjaja/assembly_course/error_quast_%j.e
 #SBATCH --partition=pibu_el8
 
+mkdir /data/users/awidjaja/assembly_course/quast_res/no_ref
+mkdir /data/users/awidjaja/assembly_course/quast_res/ref
+
 in_dir="/data/users/awidjaja/assembly_course"
 out_noref_dir="/data/users/awidjaja/assembly_course/quast_res/no_ref"
 out_ref_dir="/data/users/awidjaja/assembly_course/quast_res/ref"
