@@ -10,6 +10,8 @@
 #SBATCH --error=/data/users/awidjaja/assembly_course/error_flye_%j.e
 #SBATCH --partition=pibu_el8
 
+mkdir /data/users/awidjaja/assembly_course/flye_res
+
 in_dir="/data/users/awidjaja/assembly_course/fastp_res"
 out_dir="/data/users/awidjaja/assembly_course/flye_res"
 
