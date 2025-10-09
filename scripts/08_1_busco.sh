@@ -10,6 +10,8 @@
 #SBATCH --error=/data/users/awidjaja/assembly_course/error_busco_%j.e
 #SBATCH --partition=pibu_el8
 
+mkdir /data/users/awidjaja/assembly_course/busco_res
+
 in_flye_dir="/data/users/awidjaja/assembly_course/flye_res"
 in_hifiasm_dir="/data/users/awidjaja/assembly_course/hifiasm_res"
 in_lja_dir="/data/users/awidjaja/assembly_course/lja_res/ERR11437321"
