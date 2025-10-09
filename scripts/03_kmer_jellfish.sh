@@ -10,6 +10,8 @@
 #SBATCH --error=/data/users/awidjaja/assembly_course/error_jellyfish_%j.e
 #SBATCH --partition=pibu_el8
 
+mkdir /data/users/awidjaja/assembly_course/kmer_calc
+
 in_dir="/data/users/awidjaja/assembly_course/fastp_res"
 out_dir="/data/users/awidjaja/assembly_course/kmer_calc"
 
