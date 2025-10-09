@@ -10,6 +10,10 @@
 #SBATCH --error=/data/users/awidjaja/assembly_course/error_fastqc_%j.e
 #SBATCH --partition=pibu_el8
 
+cd /data/users/awidjaja/assembly_course
+ln -s /data/courses/assembly-annotation-course/raw_data/Nov-02 ./
+ln -s /data/courses/assembly-annotation-course/raw_data/RNAseq_Sha ./
+
 in_dir="/data/users/awidjaja/assembly_course"
 out_dir="/data/users/awidjaja/assembly_course/QC"
 
