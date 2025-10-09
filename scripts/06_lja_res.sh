@@ -10,6 +10,8 @@
 #SBATCH --error=/data/users/awidjaja/assembly_course/error_LJA_%j.e
 #SBATCH --partition=pibu_el8
 
+mkdir /data/users/awidjaja/assembly_course/lja_res
+
 in_dir="/data/users/awidjaja/assembly_course/fastp_res"
 out_dir="/data/users/awidjaja/assembly_course/lja_res"
 
